@@ -1,2 +1,1 @@
-print("nathan")
-#teste 6
+#Script criado por nathan quadros
