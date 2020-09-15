@@ -1,8 +1,9 @@
 from zabbix_api import ZabbixAPI
+import getpass
 
 server = "http://15.228.60.226/"
 UserName = input("Digite o nome de usário: ")
-Password = input("Digite a sua senha: ")
+Password = getpass.getpass("Digite a sua senha: ")
 
 
 # Instanciando a API
