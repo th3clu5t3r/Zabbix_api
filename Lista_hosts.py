@@ -14,4 +14,4 @@ hosts = zapi.host.get({"output":"extend"})
 for host in hosts:
     hostID = host[u'hostid']
     HostName = host[u'name']
-    print ("Host: ", HostName, "HostID: ", hostID)
+    print ("Host: ", HostName)
